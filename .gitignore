@@ -1,0 +1,4 @@
+node_modules
+backend/build
+backend/frontend_build
+frontend/build

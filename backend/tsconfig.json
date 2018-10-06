@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "rootDir": "./src",
+    "outDir": "./build",
+    "lib": [
+      "es2015",
+      "es2017"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "baseUrl": "./src",
+  },
+  "exclude": [
+    "node_modules",
+    "bin/**/*.ts",
+    "other/**/*.ts",
+    "src/types",
+    "**/*.spec.ts",
+    ".nyc_output",
+    "apidoc",
+    "config",
+    "coverage",
+    "views",
+    "docker",
+    "public"
+  ]
+}
