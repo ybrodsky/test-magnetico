@@ -1,0 +1,11 @@
+module.exports = {
+  dbConfig: {
+    username: 'root',
+    password: '',
+    database: 'magnetico',
+    host: 'localhost',
+    dialect: 'mysql',
+    logging: false,
+    operatorsAliases: false,
+  },
+}

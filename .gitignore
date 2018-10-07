@@ -1,3 +1,4 @@
+backend/config/local.js
 backend/node_modules
 backend/.nyc_output
 backend/coverage

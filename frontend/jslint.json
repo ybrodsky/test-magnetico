@@ -1,0 +1,23 @@
+{
+  "extends": ["jslint:recommended", "jslint-react", "jslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.js"
+    ]
+  },
+  "rules": {
+    "ordered-imports": [false, {
+      "import-sources-order": "any",
+      "named-imports-order": "case-insensitive"
+    }],
+    "no-console": false,
+    "no-debugger": false,
+    "jsx-boolean-value": false,
+    "object-literal-sort-keys": false,
+    "jsx-self-close": false,
+    "interface-over-type-literal": false,
+    "jsx-no-lambda": false,
+    "no-unused-variable": false
+  }
+}

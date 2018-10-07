@@ -1,0 +1,35 @@
+body {
+  background-color:#e8e8e8;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.09375rem;
+  line-height: 1.5;
+}
+
+.btn-sm, .btn-group-sm>.btn {
+  padding: 0.15rem 0.3rem;
+  font-size: 0.765625rem;
+  line-height: 1.5;
+}
+
+.react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-animation: react-confirm-alert-fadeIn 0.1s 0.2s forwards;
+  -moz-animation: react-confirm-alert-fadeIn 0.1s 0.2s forwards;
+  -o-animation: react-confirm-alert-fadeIn 0.1s 0.2s forwards;
+  animation: react-confirm-alert-fadeIn 0.1s 0.2s forwards;
+}
