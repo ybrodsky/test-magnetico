@@ -27,7 +27,7 @@ router.put('/:id', async (req: Request, res: Response, next: NextFunction) => {
     const appartment = await models.Appartment.findById(id);
 
     if (!appartment) {
-      return next(createError(404, 'Not found'));
+      throw createError(404, 'Not found');
     }
 
     const updated = await appartment.update(body);
@@ -46,7 +46,7 @@ router.get('/:id', async (req: Request, res: Response, next: NextFunction) => {
     const appartment = await models.Appartment.findById(id, { raw: true });
 
     if (!appartment) {
-      return next(createError(404, 'Not found'));
+      throw createError(404, 'Not found');
     }
 
     const rents = await models.Rent.count({

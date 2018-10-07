@@ -1,4 +1,4 @@
-node_modules
-backend/build
-backend/frontend_build
-frontend/build
+backend/node_modules
+backend/.nyc_output
+backend/coverage
+frontend/node_modules

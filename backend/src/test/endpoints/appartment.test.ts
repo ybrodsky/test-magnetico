@@ -2,10 +2,6 @@ import { expect } from 'chai';
 import * as _ from 'lodash';
 import * as supertest from 'supertest';
 import * as config from 'config';
-import * as sinon from 'sinon';
-import * as nock from 'nock';
-import * as Helper from '../helper';
-import models from 'models';
 
 const server = config.get('server');
 const request = supertest(`${server.host}:${server.port}`);
